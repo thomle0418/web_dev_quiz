@@ -19,7 +19,12 @@ infoCard.classList.add("d-none");
 }
 letsDoThis.addEventListener("click",openQuiz)
 
-
+function returnStart(){
+    //when "lets do this" button is clicked, it will hide the info box and display the quiz box.
+    infoCard.classList.add("d-none");
+}
+noThanks.addEventListener("click",returnStart);
+    
 
 // const questions = [
 //     {
