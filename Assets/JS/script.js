@@ -1,6 +1,13 @@
-//VARIABLES
-// const startButton = document.querySelector(".start_button");
-// const quizBox = document.getElementById("quiz");
+//VARIABLES (what variables do I need?)
+const startButton = document.querySelector(".start");
+const infoCard = document.querySelector(".info-card")
+
+function startQuiz(){
+infoCard.classList.remove("d-none");
+}
+
+startButton.addEventListener("click",startQuiz);
+
 // const questions = [
 //     {
 //         question: 'What does HTML Mean?',
@@ -30,3 +37,4 @@
 // //Eventlistener section
 
 // startButton.addEventListener("click", startQuiz);
+
