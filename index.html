@@ -29,15 +29,23 @@
 <!--Quiz card-->
 <div class="container">
   <div class = "quiz-card d-none">
-  <div class="d-grid gap-2 col-6 mx-auto bg-warning border rounded-3">
-      <div class= "bg-secondary text-white p-2"><header class ="">Question here</header></div>
+  <div class="d-grid gap-2 col-12 mx-auto bg-white">
+      <div class= "bg-secondary text-white p-2">
+        <!--Start Timer-->
+        <div d-flex align-items-center><h4>Question here</h4></div>
+            <div class="timer">
+                <div class="time_left_txt d-flex justify-content-end">Time Left</div>
+                <div class="timer_sec d-flex justify-content-end">15</div>
+            </div>
+            <!--End Timer-->
+            <div class="time_line"></div>
+      </div>
       <button class="btn btn-primary" type="button">Button</button>
       <button class="btn btn-primary" type="button">Button</button>
       <button class="btn btn-primary" type="button">Button</button>
       <button class="btn btn-primary" type="button">Button</button>
       <footer class ="d-flex justify-content-end gap-2 me-3">
         <button class="btn btn-primary" type="button">Next Question</button>
-        <button class="btn btn-primary" type="button">Quit</button>
       </footer>
       </div>
   </div>

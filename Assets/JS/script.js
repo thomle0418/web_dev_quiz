@@ -5,6 +5,10 @@ const quiz = document.querySelector(".quiz-card");
 const noThanks = document.querySelector(".no-thanks");
 const letsDoThis = document.querySelector(".lets-do-this")
 
+//Skateboarding questions 
+//End of skateboarding questions 
+
+//Start of  button functions
 function startQuiz(){
 //remove display none from info card
 infoCard.classList.remove("d-none");
@@ -24,7 +28,16 @@ function returnStart(){
     infoCard.classList.add("d-none");
 }
 noThanks.addEventListener("click",returnStart);
-    
+
+//End of button functions
+
+
+
+//Timer count down function
+
+//End of timer count down functions
+
+
 
 // const questions = [
 //     {
