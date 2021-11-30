@@ -37,7 +37,65 @@ noThanks.addEventListener("click",returnStart);
 
 //End of timer count down functions
 
+//skateboarding questions
 
+let questions = [
+    {
+        number: 1,
+        question: "Where was skateboarding invented?",
+        answer: "The United States",
+        options: [
+            "The United States",
+            "Germany", 
+            "The United Kingdom",
+            "Japan",
+        ]
+    },
+    {
+        number: 2,
+        question: "Who is regarded as the father of modern skateboarding?",
+        answer: "Rodney Mullen",
+        options: [
+            "Tony Hawk",
+            "Tony Alva", 
+            "Bam Margera ",
+            "Rodney Mullen",
+        ]
+    },
+    {
+        number: 3,
+        question: "Who had the ender part in Enjoi's, 'Bag of Suck', video?",
+        answer: "Jerry Hsu",
+        options: [
+            "Louie Barletta",
+            "Jerry Hsu", 
+            "Jose Rojo",
+            "Caswell Berry",
+        ]
+    },
+    {
+        number: 4,
+        question: "Who won the 2021 Skateboarding Olympic gold medal?",
+        answer: "Yuto Horigome",
+        options: [
+            "Aurelien Giraud",
+            "Nyjah Huston", 
+            "Yuto Horigome",
+            "Kelvin Hoefler",
+        ]
+    },
+    {
+        number: 5,
+        question: "Who won Skater of the year in 2020?",
+        answer: "Mason Silva",
+        options: [
+            "Mason Silva",
+            "Tom Knox", 
+            "Taylor Kirby",
+            "Alexis Sablone",
+        ]
+    },
+];
 
 // const questions = [
 //     {
