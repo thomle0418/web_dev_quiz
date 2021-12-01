@@ -25,6 +25,7 @@ infoCard.classList.remove("d-none");
 }
 //when start button is clicked, display info card
 startButton.addEventListener("click",startQuiz);
+
 //open quiz card
 function openQuiz(){
 //when "lets do this" button is clicked, it will hide the info box and display the quiz box.
