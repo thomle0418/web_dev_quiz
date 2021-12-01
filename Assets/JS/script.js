@@ -39,6 +39,36 @@ function returnStart(){
 }
 noThanks.addEventListener("click",returnStart);
 
+// if Next Que button clicked
+// next_btn.onclick = ()=>{
+//     if(que_count < questions.length - 1){ //if question count is less than total question length
+//         que_count++; //increment the que_count value
+//         que_numb++; //increment the que_numb value
+//         showQuetions(que_count); //calling showQestions function
+//         queCounter(que_numb); //passing que_numb value to queCounter
+//         clearInterval(counter); //clear counter
+//         clearInterval(counterLine); //clear counterLine
+//         startTimer(timeValue); //calling startTimer function
+//         startTimerLine(widthValue); //calling startTimerLine function
+//         timeText.textContent = "Time Left"; //change the timeText to Time Left
+//         next_btn.classList.remove("d-none"); //hide the next button
+//     }else{
+//         clearInterval(counter); //clear counter
+//         clearInterval(counterLine); //clear counterLine
+//         showResult(); //calling showResult function
+//     }
+// }
+
+
+//I can write an event listener for each button on each card. 
+//When the user clicks on the right answer, the button will turn green, 1 point will be added to their score, the time will stop, next button will appear.
+//If the user clicks the wrong answer, the button will turn red, no points will be rewarded, timer stops, next button appears. 
+//If the user runs out of time, the correct answer will appear, no points awarded, next question button appears. 
+
+
+
+
+
 //End of button functions
 
 
