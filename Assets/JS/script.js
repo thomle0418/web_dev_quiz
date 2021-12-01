@@ -1,7 +1,13 @@
 //VARIABLES (what variables do I need?)
 const startButton = document.querySelector(".start");
 const infoCard = document.querySelector(".info-card");
-const quiz = document.querySelector(".quiz-card1");
+//questions cards for quiz
+const question1 = document.querySelector(".quiz-card1");
+const question2 = document.querySelector(".quiz-card2");
+const question3 = document.querySelector(".quiz-card3");
+const question4 = document.querySelector(".quiz-card4");
+const question5 = document.querySelector(".quiz-card5");
+//buttons
 const noThanks = document.querySelector(".no-thanks");
 const letsDoThis = document.querySelector(".lets-do-this");
 //timer
@@ -22,7 +28,7 @@ startButton.addEventListener("click",startQuiz);
 //open quiz card
 function openQuiz(){
 //when "lets do this" button is clicked, it will hide the info box and display the quiz box.
-quiz.classList.remove("d-none");
+question1.classList.remove("d-none");
 infoCard.classList.add("d-none");
 }
 letsDoThis.addEventListener("click",openQuiz)
