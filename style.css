@@ -14,11 +14,14 @@ body{
     background-color:khaki;
 }
 
+.card{
+    width: 500px;
+}
+
 .start-btn{
     font-size: 25px;
     font-weight: 500px;
     padding: 15px 30px;
-    display: none;
 }
 
 
@@ -44,3 +47,14 @@ body{
     margin-top: 5px;
     margin-bottom: 10px;
 }
+.options_list .btn-outline-primary{
+    color:black;
+}
+.options_list .btn-outline-primary:hover{
+    color: lightblue;
+}
+.next_btn{
+    display: flex;
+    justify-content: flex-end;
+}
+

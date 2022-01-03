@@ -19,14 +19,15 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
+
   <!-- Start Button -->
   <div class="start-button">
-    <button class=" start-btn btn-primary btn-rounded" type="button">Start Quiz</button>
+    <button id="start-btn" type="button" class="btn-primary btn-rounded" type="button">Start Quiz</button>
   </div>
   
 <!-- Rules Card -->
-  <div class="card">
-    <div class="card-body d-none">
+  <div id="rules-card"class="card d-none">
+    <div class="card-body">
       <h5 class="card-title">Rules of the Quiz</h5>
       <ol>
         <li>You will have 30 Seconds to complete eash quiz question.</li>
@@ -35,40 +36,41 @@
         <li>You will recieve a score at the end of the quiz.</li>
         <li>Good luck!</li>
       </ol>
-      <button type="button" class="btn btn-primary">Quit Quiz</button>
-      <button type="button" class="btn btn-primary">Continue Quiz</button>
+      <button type="button" class="quit-button btn btn-primary">Quit Quiz</button>
+      <button type="button" class="continue-button btn btn-primary">Continue Quiz</button>
     </div>
   </div>
 
   <!-- Quiz Card -->
-  <div class="card">
+  <div class="quiz-card d-none card">
     <div class="question-box card-body">
       <header class="quiz-header">
-        <div class="title">Coding Quiz</div>
+        <div class="title"><h5>Coding Quiz</h5></div>
         <div class="timer">
           <div class="time_left">Time Left:</div>
           <div class="timer_sec">30</div>
         </div>
       </header>
-
-    <div class="question_txt"><span class="question">Question Here</span></div>
-
-    <div class="options_list" aria-label="Vertical button group">
-      <button type="button" class="btn-outline-primary"><span class="options">option 1</span></button>
-      <button type="button" class="btn-outline-primary"><span class="options">option 2</span></button>
-      <button type="button" class="btn-outline-primary"><span class="options">option 3</span></button>
-      <button type="button" class="btn-outline-primary"><span class="options">option 4</span></button>
-    </div>  
-
-      
-      <button type="button" class="btn btn-primary">Quit Quiz</button>
-      <button type="button" class="btn btn-primary">Continue Quiz</button>
+      <div class="question_txt"> 
+        <h6><span class="question">Question Here</span></h6>
+      </div>
+      <div class="options_list" aria-label="Vertical button group">
+        <button type="button" class="btn-outline-primary"><span class="options">option 1</span></button>
+        <button type="button" class="btn-outline-primary"><span class="options">option 2</span></button>
+        <button type="button" class="btn-outline-primary"><span class="options">option 3</span></button>
+        <button type="button" class="btn-outline-primary"><span class="options">option 4</span></button>
+      </div>  
+      <div class="next_btn">
+        <button type="button" class="nextButton btn btn-primary d-none">Next Question</button>
+      </div>  
     </div>
   </div>
+
+  <!--  -->
 
     <!-- MDB -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Custom scripts -->
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
   </body>
 </html>
