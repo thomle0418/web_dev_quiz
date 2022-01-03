@@ -9,21 +9,36 @@
     <link rel="icon" href="./Assets/images/icons8-quizlet-50.png" type="image/x-icon" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
-    <!-- Google Fonts Roboto -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
-    />
+    <!-- Google Fonts Questrial -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
+  <!-- Start Button -->
   <div class="start-button">
-    <button class="btn-primary btn-rounded" type="button">Start Quiz</button>
+    <button class=" start-btn btn-primary btn-rounded" type="button">Start Quiz</button>
   </div>
-    
+  
+
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Rules of the Quiz</h5>
+      <ol>
+        <li>You will have 30 Seconds to complete eash quiz question.</li>
+        <li>If you select the wrong answer, time will be deducted from the timer.</li>
+        <li>You cannot select an answer after the time runs out. </li>
+        <li>You will recieve a score at the end of the quiz.</li>
+        <li>Good luck!</li>
+      </ol>
+      <button type="button" class="btn btn-primary">Quit Quiz</button>
+      <button type="button" class="btn btn-primary">Continue Quiz</button>
+    </div>
+  </div>
 
     <!-- MDB -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
