@@ -36,3 +36,11 @@ body{
 .time_left{
     margin-right: 5px;
 }
+
+.options_list{
+    display: grid;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
