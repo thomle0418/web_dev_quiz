@@ -1,5 +1,10 @@
 # 04 Web APIs: Code Quiz
 
+##Introduction
+
+This is an incomplete assignment. I was able to create html elements to make a quiz but couldn't figure out the javascript to make it functional. 
+
+
 ## Your Task
 
 At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
